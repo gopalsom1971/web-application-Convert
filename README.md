@@ -53,6 +53,7 @@ The bot will start and execute the tasks defined in your script.
 One of the key features of this project is a custom function that accurately identifies the type of a peer (user, chat, or channel) based on its ID. This is particularly useful for avoiding "Peer ID invalid" errors.
 
 ```python
+#import etc........here
 #-------------------------------------------------------------(THIS PART FOR REMOVE PEER-ID INVALID)----------------------
 import pyrogram.utils as utils  # Importing Pyrogram utils
 
